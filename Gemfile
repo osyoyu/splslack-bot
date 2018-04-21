@@ -4,3 +4,4 @@ gem 'ruboty'
 gem 'ruboty-slack_rtm'
 
 gem 'ruboty-google_image'
+gem 'ruboty-pick'
