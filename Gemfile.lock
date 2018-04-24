@@ -29,6 +29,8 @@ GEM
       dotenv
       mem
       slop
+    ruboty-echo (0.1.1)
+      ruboty
     ruboty-google_image (0.1.0)
       faraday
       faraday_middleware
@@ -61,6 +63,7 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-echo
   ruboty-google_image
   ruboty-pick
   ruboty-slack_rtm
