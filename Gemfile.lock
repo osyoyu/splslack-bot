@@ -19,6 +19,7 @@ GEM
       websocket-driver (>= 0.5.1)
     i18n (1.0.0)
       concurrent-ruby (~> 1.0)
+    japanese_numbers (0.1.1)
     mem (0.1.5)
     minitest (5.11.3)
     multi_json (1.13.1)
@@ -35,8 +36,8 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-karma (0.4.3)
-      ruboty
+    ruboty-hugekarma (0.1.0)
+      japanese_numbers (~> 0.1.1)
     ruboty-pick (0.1.0)
     ruboty-slack_rtm (3.0.0)
       faraday (~> 0.11)
@@ -67,7 +68,7 @@ DEPENDENCIES
   ruboty
   ruboty-echo
   ruboty-google_image
-  ruboty-karma
+  ruboty-hugekarma
   ruboty-pick
   ruboty-slack_rtm
 
