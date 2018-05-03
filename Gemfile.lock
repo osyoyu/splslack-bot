@@ -36,7 +36,7 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-hugekarma (0.1.0)
+    ruboty-hugekarma (0.1.1)
       japanese_numbers (~> 0.1.1)
     ruboty-pick (0.1.0)
     ruboty-slack_rtm (3.0.0)
@@ -68,7 +68,7 @@ DEPENDENCIES
   ruboty
   ruboty-echo
   ruboty-google_image
-  ruboty-hugekarma
+  ruboty-hugekarma (~> 0.1.1)
   ruboty-pick
   ruboty-slack_rtm
 
